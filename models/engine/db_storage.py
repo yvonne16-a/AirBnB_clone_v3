@@ -81,6 +81,7 @@ class DBStorage:
         """Dispose of current session if active"""
         self.__session.remove()
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def get(self, cls, id):
         """Retrieve an object"""
@@ -102,5 +103,7 @@ class DBStorage:
             for cls in name2class.values():
                 total += self.__session.query(cls).count()
         return total
+=======
+>>>>>>> 49ff7f1c9c2fa5bc14c8cf142020d54c6cb71db6
 =======
 >>>>>>> 49ff7f1c9c2fa5bc14c8cf142020d54c6cb71db6
